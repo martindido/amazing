@@ -1,0 +1,56 @@
+html, body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#score {
+	position: absolute;
+	width: 100%;
+	background-color: white;
+	text-align: right;
+	font-weight: bold;
+	font-size: 60px;
+	height: 350px;
+}
+
+.table {
+	width: 100%;
+	height: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+.cell {
+	background-color: blue;
+	border: none;
+	padding: 0;
+}
+
+.center .center {
+	background-color: red;
+}
+
+.east .center .left {
+	background-color: red;
+}
+
+.west .center .right {
+	background-color: red;
+}
+
+.north .bottom .center {
+	background-color: red;
+}
+
+.south .top .center {
+	background-color: red;
+}
+
+.top, .bottom {
+	height: 15%;
+}
+
+.left, .right {
+	width: 15%;
+}

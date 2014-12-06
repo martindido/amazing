@@ -1,0 +1,24 @@
+{
+  "name": "amazeing",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martindido/amazing"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martindido/amazing/issues"
+  },
+  "homepage": "https://github.com/martindido/amazing",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jst": "^0.6.0",
+    "load-grunt-config": "^0.16.0"
+  }
+}
